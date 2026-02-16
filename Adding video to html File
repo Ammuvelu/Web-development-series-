@@ -1,0 +1,59 @@
+<html>
+ <h1>Hello World!</h1>
+<p>
+<h2>
+ <centre> <b> WELCOME !!</b> </center>
+</h2> 
+ <right> <i>DAY NIGHT CAFE </i> </right>
+<br>
+ <img src="C:\Users\tamil\OneDrive\Documents\shop.jpg" width=170 length=200 >  
+</br>
+<body>
+<main>
+
+🌟 About Us
+
+Founded with a passion for quality and comfort, Brew Haven Café offers a relaxing atmosphere with rich aromas of freshly ground coffee beans. Whether you're here for a quick espresso or a long conversation, we make every visit special.
+
+</main>
+
+<!-- Video Section -->
+       <video width="500" controls>
+        <source src="C:\Users\tamil\OneDrive\Desktop\cafe.mp4">
+ </video>
+  <br><br>
+
+    <h2>Place Your Order</h2>
+
+  <form>
+    <!-- Drop-down menu -->
+    <label for="coffee">Select Your Coffee:</label><br>
+    <select id="coffee" name="coffee">
+      <option>Espresso</option>
+      <option>Cappuccino</option>
+      <option>Latte</option>
+      <option>Cold Coffee</option>
+    </select>
+    <br><br>
+
+    <!-- Quantity -->
+    <label for="qty">Quantity:</label><br>
+    <input type="number" id="qty" name="quantity" min="1" required>
+    <br><br>
+
+    <!-- Customer name -->
+    <label for="name">Customer Name:</label><br>
+    <input type="text" id="name" name="customer name" required>
+    <br><br>
+
+    <!-- Email -->
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" required>
+    <br><br>
+
+    <!-- Submit -->
+    <input type="submit" value="Order Now">
+  </form>
+
+</body>
+</html>
